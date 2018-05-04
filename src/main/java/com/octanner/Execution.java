@@ -13,9 +13,9 @@ public class Execution {
 
 public static void main(String[] args) {
 
-		
+		System.out.println("report api called");
 
-		JobDetail job = JobBuilder.newJob(SampleJob.class)
+		/*JobDetail job = JobBuilder.newJob(SampleJob.class)
 			.withIdentity("My Job", "group1").build();
 
 		Trigger trigger = TriggerBuilder
@@ -35,7 +35,7 @@ public static void main(String[] args) {
 		} catch (SchedulerException e) {
 			
 			e.printStackTrace();
-		}
+		}*/
 		
 
 	}
